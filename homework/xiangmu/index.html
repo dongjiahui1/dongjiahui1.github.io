@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="font_1573282_oiwr22qfcoj/iconfont.css">
+    <link rel="stylesheet" href="swiper.min.css">
+</head>
+
+<body>
+    <div id="box" v-cloak="">
+        <div class="box1">
+            <div class="logo">
+                <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTcvMDYvYTNkMjAyZDQ0M2I5NzNiYThiYjkyNGUzYWU3N2UzYjYucG5n.png"
+                    alt="">
+            </div>
+            <div class="nav">
+                <a href="#/">首页</a>
+                <a href="#/no2">产品系列</a>
+                <a href="#/no3">新闻中心</a>
+                <a href="#/no4">加入我们</a>
+                <a href="#/no5">联系我们</a>
+            </div>
+        </div>
+        <div class="box2">
+            <!-- {{$route.path}} -->
+            <router-view></router-view>
+        </div>
+        <div class="box3">
+            <div class="box4">
+                <p><span style="font-family: 微软雅黑;">关于我们</span></p>
+                <span>可视化图文内容编辑让网站制作和维护成为一件</span>
+                <span>轻松的事。普通用户还是专业制作人员都能使用</span>
+                <span>起飞页设计出最具专业水准的网站。</span>
+            </div>
+            <div class="box5">
+                <p style="margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 微软雅黑;">联系我们</span></p>
+                <p>咨询电话 : 4000-000-100</p>
+                <p >商务合作 : abc@abcde.com</p>
+                <p>联系我们 : abcd@abcde.com</p>
+            </div>
+            <div class="box5">
+                <p style="margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 微软雅黑;">帮助与支持</span></p>
+                <p>帮助中心</p>
+                <p>服务条款</p>
+                <p>常见问题</p>
+            </div>
+            <div class="box6">
+                <p style="margin-top: 10px;margin-bottom: 10px;"><span style="font-family: 微软雅黑;">关注我们</span></p>
+                <div style="width:267px;height:84px">
+                    <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cDovLzU3YTdlNmFhZjJmNzgudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNi8wOS84ZjM0YTQ3OWZiZjExZWE5NzUwMmI2ZWUyYWIwODJhNS5qcGc_p_p100_p_2FYXR0YWNobWVudF9pZD0xMDg3Mw_p_p100_p_3D_p_p100_p_3D.jpg"
+                        style="width: 76px;height: 76px;" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="box7">
+            <span>
+                版权所有 有限公司©2020 地址：苏州市工业园区金鸡湖大道99号 苏ICP备0001000号</span>
+        </div>
+    </div>
+    <template id="no1">
+        <div>
+            <div class="d1">
+                <div class="d2">
+                    <div class="d3">主推产品</div>
+                    <div class="d4">PRODUCT</div>
+                    <span></span>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper-container banner">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img data-class="" data-style="" class="rsImg  rsMainSlideImage"
+                                src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cDovLzU3YTdlNmFhZjJmNzgudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNi8wOS9mZWQ2MDIwMDJlNmI2NGRiNWFkODQyYTA3ZTliODk4Ni5wbmc_p_p100_p_3D.png"></div>
+                        <div class="swiper-slide"><img data-class="" data-style="" class="rsImg  rsMainSlideImage"
+                                src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cDovLzU3YTdlNmFhZjJmNzgudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNi8wOS84MGQyNjk2NjM0MmY1MzVmN2RiYTAyNjY5M2YyZDlmNy5wbmc_p_p100_p_3D.png"></div>
+                        <div class="swiper-slide"><img data-class="" data-style="" class="rsImg  rsMainSlideImage"
+                                src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cDovLzU3YTdlNmFhZjJmNzgudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNi8wOS83NjkwMTEyZDQyMjM3ZjlhODQ5ZWM2NzQ3Y2Y4YzFhZi5wbmc_p_p100_p_3D.png"></div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div m-padding="42px 0px 0px 0px" p-padding="42px 0 0 0" css_animation_delay="0"
+                    qfyuuid="qfy_column_text_9r2m8"
+                    class="qfy-element qfy-text qfy-text-18904 qfe_text_column qfe_content_element  mobile_fontsize "
+                    style="position:relative;line-height:1.5em;background-repeat: no-repeat;margin-top:0;margin-bottom:0;padding:42px 0 0 0;border-radius:0px;">
+                    <div>
+                        <div style="text-align: center;"><span style="font-family: arial;"><span
+                                    style="font-size:68px;">U</span><span style="font-size:40px;"><span
+                                        style="font-size:68px;">m</span><span
+                                        style="font-size:26px;">360</span></span></span><strong><span
+                                    style="font-family:微软雅黑;"></span></strong></div>
+
+                    </div>
+                </div>
+                <div>
+                    <div style="text-align: center;"><span style="font-size:16px;"><strong><span
+                                    style="color: rgb(57, 57, 57);"><span
+                                        style="display: inline-block; line-height: 1.8;"><span
+                                            style="font-family: 微软雅黑;">精细</span><span
+                                            style="color: rgb(57, 57, 57);"><span
+                                                style="display: inline-block; line-height: 1.8;"><span
+                                                    style="font-family: 微软雅黑;">快速</span></span></span><span
+                                            style="font-family: 微软雅黑;">低剂量成像</span><span
+                                            style="font-family: 微软雅黑;"></span></span></span></strong></span><span
+                            style="font-size:16px;"><strong><span style="color: rgb(57, 57, 57);"><span
+                                        style="display: inline-block; line-height: 1.8;"><span
+                                            style="font-family: 微软雅黑;">，高效</span><span
+                                            style="color: rgb(57, 57, 57);"><span
+                                                style="display: inline-block; line-height: 1.8;"><span
+                                                    style="font-family: 微软雅黑;">安全</span></span></span><span
+                                            style="font-family: 微软雅黑;">扫描体验</span></span></span></strong></span><br>
+                        <span style="font-size:16px;"><strong><span style="color: rgb(57, 57, 57);"><span
+                                        style="display: inline-block; line-height: 1.8;"></span></span></strong></span>
+                    </div>
+                </div>
+                <div class="d5">
+                    <div class="d6">
+                        <div class="m-main">
+                            <h2>12000+</h2>
+                            <span>成功案例</span>
+                        </div>
+                        <div class="m-main">
+                            <h2>010+</h2>
+                            <span>解决方案</span>
+                        </div>
+                        <div class="m-main">
+                            <h2>200+</h2>
+                            <span>合作伙伴</span>
+                        </div>
+                        <div class="m-main" style="border: none;">
+                            <h2>050</h2>
+                            <span>技术专利</span>
+                        </div>
+                    </div>
+                </div>
+                <div style="overflow: hidden;">
+                    <div class="con" style="background-color: white;">
+                        <p>NEWS</p>
+                        <span>产品系列</span>
+                    </div>
+                    <chan></chan>
+                    <div class="con" style="background-color: white;">
+                        <p>PRODUCT</p>
+                        <span>产品系列</span>
+                    </div>
+                    <product></product>
+                </div>
+
+            </div>
+        </div>
+    </template>
+    <template id="chan">
+        <div class="c1">
+            <div class="div2" v-for="(i,index) in arr">
+                <div class="div1">
+                    {{i.a}}</div>
+                <div class="c2">
+                    {{i.b}}</div>
+                <div class="c3">
+                    →</div>
+            </div>
+        </div>
+    </template>
+    <template id="product">
+        <div class="p1">
+            <div class="p2">
+                <div class="text1" v-for="i in arr">
+                    <div class="text" style="text-align: center;">
+                        <img :src="i.a" alt="">
+                        <p>{{i.b}}</p>
+                        <span>{{i.c}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+    <template id="no2">
+        <div>
+            <div class="n1">
+                <div class="n2">
+                    <div class="swiper-container" id="swiper-container2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img
+                                    src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDkvZmVkNjAyMDAyZTZiNjRkYjVhZDg0MmEwN2U5Yjg5ODYucG5n.png"
+                                    alt=""></div>
+                            <div class="swiper-slide"><img
+                                    src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDkvODBkMjY5NjYzNDJmNTM1ZjdkYmEwMjY2OTNmMmQ5ZjcucG5n.png"
+                                    alt=""></div>
+                            <div class="swiper-slide"><img
+                                    src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDkvNzY5MDExMmQ0MjIzN2Y5YTg0OWVjNjc0N2NmOGMxYWYucG5n.png"
+                                    alt=""></div>
+                        </div>
+                        <!-- 如果需要分页器 -->
+                        <div class="swiper-pagination swiper-pagination2"></div>
+                    </div>
+                </div>
+                <div class="n3">
+                    <div class="n4">
+                        <div>
+                            <div>
+                                <span style="color:#393939;font-family:微软雅黑" ><span style="font-size: 18px;"> </span></span><span
+                                    style="font-family:arial;"><span style="font-size: 18px;"><span
+                                            style="font-size:40px;"><span style="font-size:52px;">Um</span>&nbsp;<span
+                                                style="font-size:28px;">360 </span></span></span></span>
+                                <span style="color:#393939;font-family:微软雅黑"><span style="font-size: 18px;"></span></span>
+                            </div>
+                            <div>
+                                <div><span style="display:inline-block;line-height:2;"><span
+                                            style="font-size:16px;"><span style="color:#393939;"><strong><span
+                                                        style="font-family: 微软雅黑;">精细</span></strong><span
+                                                    style="color:#393939;"><strong><span
+                                                            style="font-family: 微软雅黑;">快速</span></strong></span><strong><span
+                                                        style="font-family: 微软雅黑;">低剂量成像，</span></strong></span></span></span><strong
+                                        style="color: rgb(57, 57, 57); word-spacing: normal;"><span
+                                            style="font-family: 微软雅黑;">高效</span></strong><span
+                                        style="color: rgb(57, 57, 57); word-spacing: normal;"><strong><span
+                                                style="font-family: 微软雅黑;">安全</span></strong></span><strong
+                                        style="color: rgb(57, 57, 57); word-spacing: normal;"><span
+                                            style="font-family: 微软雅黑;">扫描体验</span></strong></div>
+                            </div>
+                        </div>
+                        <div style="padding: 0 120px;padding-top: 20px;">
+                            <div style="float: left;">
+                                <img style="float:left;display:block;width: 119px;height: 59px;" class=""
+                                    src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cDovLzU3YTdlNmFhZjJmNzgudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNy8wNy85NzE0MTdlOTc5YTVmMWJmM2E2NmRmNjVhMzhmNjk3ZS0zMDB4MTUwLnBuZw_p_p100_p_3D_p_p100_p_3D.png"
+                                    alt="banner_03" description="" data-attach-id="13039" data-title="banner_03"
+                                    title="" src-img="">
+                            </div>
+                            <div style="float: left;">
+                                <img style="float:left;display:block;width: 119px;height: 59px;" class=""
+                                    src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cDovLzU3YTdlNmFhZjJmNzgudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNy8wNy9jNTdlNjEyMzc5YzQzODkwN2U1MWQ4M2M5OGI2ZWUyNC0zMDB4MTUwLnBuZw_p_p100_p_3D_p_p100_p_3D.png"
+                                    alt="banner_01" description="" data-attach-id="13037" data-title="banner_01"
+                                    title="" src-img="">
+                            </div>
+                            <div class="n6" style="float: left;">
+                                <img class=""
+                                    src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cDovLzU3YTdlNmFhZjJmNzgudDczLnFpZmVpeWUuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNy8wNy9jYzgyZmE1NTg4MmI0Y2JhN2UzOTlmZGQwYjMyM2Y1My0zMDB4MTUwLnBuZw_p_p100_p_3D_p_p100_p_3D.png"
+                                    alt="banner_02" description="" data-attach-id="13038" data-title="banner_02"
+                                    title="" src-img="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="overflow: hidden">
+                <div class="n7">
+                    <div class="n8">
+                        PRODUCT</div>
+                    <div class="n9">
+                        产品系列</div>
+                </div>
+                <div class="n10">
+                    <div class="n11">
+                        <ul>
+                            <li>
+                                <a href="#/no2/">全部设备</a></li>
+                            <li>
+                                <a href="#/no2/shebeifenlei1">设备分类一</a></li>
+                            <li>
+                                <a href="#/no2/shebeifenlei2">设备分类二</a></li>
+                            <li>
+                                <a href="#/no2/shebeifenlei3">设备分类三</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <router-view></router-view>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+    <template id="no3">
+        <div>
+            <div class="a1">
+                <div style="width: 100%;">
+                    <div style="padding-top: 60px;">
+                        <div id="cs">
+                            <div id="cs1">
+                                <div id="cs2">
+                                    <div id="cs3">
+                                        =
+                                    </div>
+                                    <div id="cs4">
+                                        <div id="cs5">
+                                            <a href="#/quanbu" style="color: #fff">全部资讯</a></div>
+                                    </div>
+                                    <div style="float: right;margin-top: 5px;">
+                                        <div id="cs6">
+                                            ▼
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="cs7">
+                                    <span
+                                        style="font-size: 13px;color: #999;padding: 10px 0;padding-left: 10px;line-height: 36px;"><a
+                                            href="#/qiye">▼&nbsp;企业动态</a></span>
+                                </div>
+                                <div id="cs8">
+                                    <span
+                                        style="font-size: 13px;color: #999;padding: 10px 0;padding-left: 10px;line-height: 36px;"><a
+                                            href="#/hangye">▼&nbsp;行业资讯</a></span>
+                                </div>
+                            </div>
+                            <div id="cs9" style="flex: 7;">
+                                <ul>
+                                    <li>
+                                        <div style="width: 100%;height: 100%;">
+                                  <div id="cs10">
+                                                <div id="cc">
+                                                    <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDkvYjg2MjE5ZjFiZGY5NGI4ZjI1NGJlNzRmM2FmOWYwYTQtMTYweDEwMC5qcGc_p_p100_p_3D.jpg"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div style="width:80%;height: 100%;">
+                                                <p style="font-family: 微软雅黑;"><a href=""
+                                                        style="font-size: 16px;line-height: 16px;">医疗PPP有望成后起之秀
+                                                        概念股早盘活跃</a></p>
+                                                <p
+                                                    style="padding-top: 5px;padding-bottom: 8px;color: #afafaf;font-size: 12px;margin-bottom: 5px;">
+                                                    <span style="line-height: 12px;">发布日期：2017年03月15日</span></p>
+                                                <p
+                                                    style="color: #8c8c8c;font-size: 12px;font-family: 微软雅黑;line-height: 22px;">
+                                                    当今最领先的响应式自助建站平台，我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网用户，
+                                                    还是专业网站制作人员，都能使用起飞页设计出最具专业水准的网站。...</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div style="width: 100%;height: 100%;">
+                                            <div
+                                                style="width:160px;padding-right: 30px;padding-bottom:20px;float: left;">
+                                                <div id="cc">
+                                                    <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDkvYjNiYTc5YzZhYWVmOGRmMjQzNmVmNjNlYjY1OWFiODYtMTYweDEwMC5qcGc_p_p100_p_3D.jpg"
+                                                        alt="">
+                                                </div>
+
+                                            </div>
+                                            <div style="width:80%;height: 100%;">
+                                                <p style="font-family: 微软雅黑;"><a href=""
+                                                        style="font-size: 16px;line-height: 16px;">国产高端医疗设备凭高性价比应对“GPS”垄断局面</a>
+                                                </p>
+                                                <p
+                                                    style="padding-top: 5px;padding-bottom: 8px;color: #afafaf;font-size: 12px;margin-bottom: 5px;">
+                                                    <span style="line-height: 12px;">发布日期：2017年03月15日</span></p>
+                                                <p
+                                                    style="color: #8c8c8c;font-size: 12px;font-family: 微软雅黑;line-height: 22px;">
+                                                    当今最领先的响应式自助建站平台，我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网用户，
+                                                    还是专业网站制作人员，都能使用起飞页设计出最具专业水准的网站。...</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div style="width: 100%;height: 100%;">
+                                            <div
+                                                style="width:160px;padding-right: 30px;padding-bottom:20px;float: left;">
+                                                <div id="cc">
+                                                    <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDkvYjE2N2Y5ZWFhNjZiZWUwMWI3YzAzNzZlODI2OGQxNTYtMTYweDEwMC5qcGc_p_p100_p_3D.jpg"
+                                                        alt="">
+                                                </div>
+
+                                            </div>
+                                            <div style="width:80%;height: 100%;">
+                                                <p style="font-family: 微软雅黑;"><a href=""
+                                                        style="font-size: 16px;line-height: 16px;">医疗器械国产化命脉：“供应商”转型“合作伙伴”</a>
+                                                </p>
+                                                <p
+                                                    style="padding-top: 5px;padding-bottom: 8px;color: #afafaf;font-size: 12px;margin-bottom: 5px;">
+                                                    <span style="line-height: 12px;">发布日期：2017年03月15日</span></p>
+                                                <p
+                                                    style="color: #8c8c8c;font-size: 12px;font-family: 微软雅黑;line-height: 22px;">
+                                                    当今最领先的响应式自助建站平台，我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网用户，
+                                                    还是专业网站制作人员，都能使用起飞页设计出最具专业水准的网站。...</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div style="width: 100%;height: 100%;">
+                                            <div
+                                                style="width:160px;padding-right: 30px;padding-bottom:20px;float: left;">
+                                                <div id="cc">
+                                                    <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDkvZTY0ZDU0MTRhMzBlMjE5ZjUyNTE3OTVjNmQ1NThhZGMtMTYweDEwMC5qcGc_p_p100_p_3D.jpg"
+                                                        alt="">
+                                                </div>
+
+                                            </div>
+                                            <div style="width:80%;height: 100%;">
+                                                <p style="font-family: 微软雅黑;"><a href=""
+                                                        style="font-size: 16px;line-height: 16px;">医疗器械9只概念股价值解析</a></p>
+                                                <p
+                                                    style="padding-top: 5px;padding-bottom: 8px;color: #afafaf;font-size: 12px;margin-bottom: 5px;">
+                                                    <span style="line-height: 12px;">发布日期：2017年03月15日</span></p>
+                                                <p
+                                                    style="color: #8c8c8c;font-size: 12px;font-family: 微软雅黑;line-height: 22px;">
+                                                    当今最领先的响应式自助建站平台，我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网用户，
+                                                    还是专业网站制作人员，都能使用起飞页设计出最具专业水准的网站。...</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div style="width: 100%;height: 100%;">
+                                            <div
+                                                style="width:160px;padding-right: 30px;padding-bottom:20px;float: left;">
+                                                <div id="cc">
+                                                    <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDgvZWY5ZGYwNDViYzVmZDE0ZjA4ZTRiMjA1YzYxNjYyZDQtMTYweDEwMC5qcGc_p_p100_p_3D.jpg"
+                                                        alt="">
+                                                </div>
+
+                                            </div>
+                                            <div style="width:80%;height: 100%;">
+                                                <p style="font-family: 微软雅黑;"><a href=""
+                                                        style="font-size: 16px;line-height: 16px;">医疗器械抽验 7批产品不合标准</a>
+                                                </p>
+                                                <p
+                                                    style="padding-top: 5px;padding-bottom: 8px;color: #afafaf;font-size: 12px;margin-bottom: 5px;">
+                                                    <span style="line-height: 12px;">发布日期：2017年03月15日</span></p>
+                                                <p
+                                                    style="color: #8c8c8c;font-size: 12px;font-family: 微软雅黑;line-height: 22px;">
+                                                    当今最领先的响应式自助建站平台，我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网用户，
+                                                    还是专业网站制作人员，都能使用起飞页设计出最具专业水准的网站。...</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div style="width: 100%;height: 100%;">
+                                            <div
+                                                style="width:160px;padding-right: 30px;padding-bottom:20px;float: left;">
+                                                <div id="cc">
+                                                    <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDkvNTAzZmQ2N2U3OTkxMDU5NTFmOGUwNDk0ODU1ZTVjNTEtMTYweDEwMC5qcGc_p_p100_p_3D.jpg"
+                                                        alt="">
+                                                </div>
+
+                                            </div>
+                                            <div style="width:80%;height: 100%;">
+                                                <p style="font-family: 微软雅黑;"><a href=""
+                                                        style="font-size: 16px;line-height: 16px;">第五届生物产业大会
+                                                        与专家共议未来发展</a>
+                                                </p>
+                                                <p
+                                                    style="padding-top: 5px;padding-bottom: 8px;color: #afafaf;font-size: 12px;margin-bottom: 5px;">
+                                                    <span style="line-height: 12px;">发布日期：2017年03月15日</span></p>
+                                                <p
+                                                    style="color: #8c8c8c;font-size: 12px;font-family: 微软雅黑;line-height: 22px;">
+                                                    当今最领先的响应式自助建站平台，我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网用户，
+                                                    还是专业网站制作人员，都能使用起飞页设计出最具专业水准的网站。...</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div style="width: 100%;height: 100%;">
+                                            <div
+                                                style="width:160px;padding-right: 30px;padding-bottom:20px;float: left;">
+                                                <div id="cc">
+                                                    <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDgvYmVlNWI0MWE3NmE4ZWFhZTNhMmFmMDU5Y2Y3YWRjY2UtMTYweDEwMC5qcGc_p_p100_p_3D.jpg"
+                                                        alt="">
+                                                </div>
+
+                                            </div>
+                                            <div style="width:80%;height: 100%;">
+                                                <p style="font-family: 微软雅黑;"><a href=""
+                                                        style="font-size: 16px;line-height: 16px;">第五届生物产业大会
+                                                        与专家共议未来发展</a>
+                                                </p>
+                                                <p
+                                                    style="padding-top: 5px;padding-bottom: 8px;color: #afafaf;font-size: 12px;margin-bottom: 5px;">
+                                                    <span style="line-height: 12px;">发布日期：2017年03月15日</span></p>
+                                                <p
+                                                    style="color: #8c8c8c;font-size: 12px;font-family: 微软雅黑;line-height: 22px;">
+                                                    当今最领先的响应式自助建站平台，我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网用户，
+                                                    还是专业网站制作人员，都能使用起飞页设计出最具专业水准的网站。...</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div style="width: 100%;height: 100%;">
+                                            <div
+                                                style="width:160px;padding-right: 30px;padding-bottom:20px;float: left;">
+                                                <div id="cc">
+                                                    <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDkvOTVlZjIxODM2NWUyOGJiODdhNjkwNWE3NDI4N2IxNWQtMTYweDEwMC5qcGc_p_p100_p_3D.jpg"
+                                                        alt="">
+                                                </div>
+
+                                            </div>
+                                            <div style="width:80%;height: 100%;">
+                                                <p style="font-family: 微软雅黑;"><a href=""
+                                                        style="font-size: 16px;line-height: 16px;">医疗器械行业上半年利润增速达29.30%</a>
+                                                </p>
+                                                <p
+                                                    style="padding-top: 5px;padding-bottom: 8px;color: #afafaf;font-size: 12px;margin-bottom: 5px;">
+                                                    <span style="line-height: 12px;">发布日期：2017年03月15日</span></p>
+                                                <p
+                                                    style="color: #8c8c8c;font-size: 12px;font-family: 微软雅黑;line-height: 22px;">
+                                                    当今最领先的响应式自助建站平台，我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网用户，
+                                                    还是专业网站制作人员，都能使用起飞页设计出最具专业水准的网站。...</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div style="width: 100%;height: 100%;">
+                                            <div
+                                                style="width:160px;padding-right: 30px;padding-bottom:20px;float: left;">
+                                                <div>
+                                                    <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTcvMDYvMTBjMjRlN2I2NmRmMWQ5MjZiNzMwZjZjNTVmZmM4Y2UtMTYweDEwMC5wbmc_p_p100_p_3D.png"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div style="width:80%;height: 100%;">
+                                                <p style="font-family: 微软雅黑;"><a href=""
+                                                        style="font-size: 16px;line-height: 16px;">20种进口医疗器械产品减税力度空前</a>
+                                                </p>
+                                                <p
+                                                    style="padding-top: 5px;padding-bottom: 8px;color: #afafaf;font-size: 12px;margin-bottom: 5px;">
+                                                    <span style="line-height: 12px;">发布日期：2017年03月15日</span></p>
+                                                <p
+                                                    style="color: #8c8c8c;font-size: 12px;font-family: 微软雅黑;line-height: 22px;">
+                                                    当今最领先的响应式自助建站平台，我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网用户，
+                                                    还是专业网站制作人员，都能使用起飞页设计出最具专业水准的网站。...</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+    <template id="no4">
+        <div>
+            <div class="content">
+                <div class="cleft">
+                    加入我们
+                    <span>▼</span>
+                </div>
+                <div class="cright">
+                    <div class="cr">
+                        <div class="ct">
+                            <strong>区域销售经理</strong>
+                            <span>发布日期：2016-08-10</span>
+                        </div>
+                        <span>公司事业部：</span><strong>某某公司</strong>
+                        <span style="margin-left: 130px;">工作地点：</span><strong>北京</strong><br>
+                        <span>职位性质：</span><strong>制造/生产/加工</strong>
+                        <span style="margin-left: 98px;">招聘人数：</span><strong>10人</strong>
+                        <h4>职位概述：</h4>
+                        <p>负责公司全产品华东区域分销工作。</p>
+                        <h4>职位描述：</h4>
+                        <p>1. 负责指定地区设备的市场推广工作，完成各项销售目标；</p>
+                        <p>2. 负责完成订单并跟进，确保产品能够及时安装，提高客户满意度；</p>
+                        <p>3. 参与招投标工作，协调市场、产品、销售、物流和服务部门参与项目后期工作；</p>
+                        <p>4. 参与区域市场营销活动,了解参与此类活动的客户信息和动态；</p>
+                        <p>5. 定期拜访客户，收集客户需求信息并形成拜访报告,协调相关部门解决客户提出的问题；</p>
+                        <p>6. 参加销售培训，完成市场信息的收集和分析，周期性向销售经理汇报总结。</p>
+                        <h4>任职条件：</h4>
+                        <p>1. 理工科相关专业，大学本科以上学历；</p>
+                        <p>2. 5年以上相关行业销售岗位经验，有大型设备销售经验者优先；</p>
+                        <p>3. 掌握公司所在的行业动态，了解公司所经营的产品技术特点；</p>
+                        <p>4. 优秀的沟通与执行能力，良好的客户服务意识，高度的敬业精神；</p>
+                        <p>5. 熟练使用WORD，EXCEL，POWERPOINT等办公软件，良好的英语应用能力。</p>
+                        <div class="cb">
+                            <button>申请该职位</button>
+                        </div>
+                    </div>
+                    <div class="cr">
+                        <div class="ct">
+                            <strong>区域销售经理</strong>
+                            <span>发布日期：2016-08-10</span>
+                        </div>
+                        <span>公司事业部：</span><strong>某某公司</strong>
+                        <span style="margin-left: 130px;">工作地点：</span><strong>北京</strong><br>
+                        <span>职位性质：</span><strong>制造/生产/加工</strong>
+                        <span style="margin-left: 98px;">招聘人数：</span><strong>10人</strong>
+                        <h4>职位概述：</h4>
+                        <p>负责公司全产品华东区域分销工作。</p>
+                        <h4>职位描述：</h4>
+                        <p>1. 负责指定地区设备的市场推广工作，完成各项销售目标；</p>
+                        <p>2. 负责完成订单并跟进，确保产品能够及时安装，提高客户满意度；</p>
+                        <p>3. 参与招投标工作，协调市场、产品、销售、物流和服务部门参与项目后期工作；</p>
+                        <p>4. 参与区域市场营销活动,了解参与此类活动的客户信息和动态；</p>
+                        <p>5. 定期拜访客户，收集客户需求信息并形成拜访报告,协调相关部门解决客户提出的问题；</p>
+                        <p>6. 参加销售培训，完成市场信息的收集和分析，周期性向销售经理汇报总结。</p>
+                        <h4>任职条件：</h4>
+                        <p>1. 理工科相关专业，大学本科以上学历；</p>
+                        <p>2. 5年以上相关行业销售岗位经验，有大型设备销售经验者优先；</p>
+                        <p>3. 掌握公司所在的行业动态，了解公司所经营的产品技术特点；</p>
+                        <p>4. 优秀的沟通与执行能力，良好的客户服务意识，高度的敬业精神；</p>
+                        <p>5. 熟练使用WORD，EXCEL，POWERPOINT等办公软件，良好的英语应用能力。</p>
+                        <div class="cb">
+                            <button>申请该职位</button>
+                        </div>
+                    </div>
+                    <div class="cr">
+                        <div class="ct">
+                            <strong>区域销售经理</strong>
+                            <span>发布日期：2016-08-10</span>
+                        </div>
+                        <span>公司事业部：</span><strong>某某公司</strong>
+                        <span style="margin-left: 130px;">工作地点：</span><strong>北京</strong><br>
+                        <span>职位性质：</span><strong>制造/生产/加工</strong>
+                        <span style="margin-left: 98px;">招聘人数：</span><strong>10人</strong>
+                        <h4>职位概述：</h4>
+                        <p>负责公司全产品华东区域分销工作。</p>
+                        <h4>职位描述：</h4>
+                        <p>1. 负责指定地区设备的市场推广工作，完成各项销售目标；</p>
+                        <p>2. 负责完成订单并跟进，确保产品能够及时安装，提高客户满意度；</p>
+                        <p>3. 参与招投标工作，协调市场、产品、销售、物流和服务部门参与项目后期工作；</p>
+                        <p>4. 参与区域市场营销活动,了解参与此类活动的客户信息和动态；</p>
+                        <p>5. 定期拜访客户，收集客户需求信息并形成拜访报告,协调相关部门解决客户提出的问题；</p>
+                        <p>6. 参加销售培训，完成市场信息的收集和分析，周期性向销售经理汇报总结。</p>
+                        <h4>任职条件：</h4>
+                        <p>1. 理工科相关专业，大学本科以上学历；</p>
+                        <p>2. 5年以上相关行业销售岗位经验，有大型设备销售经验者优先；</p>
+                        <p>3. 掌握公司所在的行业动态，了解公司所经营的产品技术特点；</p>
+                        <p>4. 优秀的沟通与执行能力，良好的客户服务意识，高度的敬业精神；</p>
+                        <p>5. 熟练使用WORD，EXCEL，POWERPOINT等办公软件，良好的英语应用能力。</p>
+                        <div class="cb">
+                            <button>申请该职位</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+    <template id="no5">
+        <div>
+            <div>
+                <div class="swiper-container two" style="height: 392px;">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"
+                            style="background-image:url(https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDkvZjkyMmI3YTQyZDYxMDQ0MWVmMzI0NjdkZDYxMDJmYzYuanBn.jpg)">
+                        </div>
+                        <div class="swiper-slide"
+                            style="background-image:url(https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDkvOGJhMDIzYjE1NGFmZWFkM2FjYTI3ZTQ4MmM1ZGM1MjMuanBn.jpg)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="s1">
+                <div class="s2">
+                    <div class="s3">
+                        <div class="s4">
+                            <div class="s5">
+                                =
+                            </div>
+                            <div class="s6">
+                                <div class="s7">
+                                    联系我们</div>
+                            </div>
+                            <div class="s8">
+                                <div class="s9">
+                                    ▼
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s10">
+                            <div>
+                                <p style="font-size: 16px;">Um生物科技有限公司</p>
+                                <p style="color: #A9A9A9;font-size: 14px;">Um biotechnology Co.,Ltd</p>
+                            </div>
+                        </div>
+                        <div class="s11">
+                            <div class="s12">
+                                <p>联系电话 : 1000 8000</p>
+                                <p>销售热线：400 8888 8888</p>
+                                <p>技术服务：400 6666 6666</p>
+                                <p>公司传真：1000 8000</p>
+                            </div>
+                        </div>
+                        <div class="s13">
+                            <p style="color: #808080;font-size: 12px;">苏州市工业园区金鸡湖大道0号某某大厦0室</p>
+                        </div>
+                        <div style="padding-top: 30px;width: 267px;height: 28px;">
+                            <span style="font-size:20px;margin-right: 10px;color: #1ecb41"
+                                class="iconfont">&#xe644;</span>
+                            <span style="font-size:20px;margin-right: 10px;color: #ef1226" class="iconfont">&#xe645;</span>
+                            <span style="font-size:24px;margin-right: 10px;color: #18a1fe"
+                                class="iconfont">&#xe615;</span>
+                            <span style="font-size:24px;margin-right: 10px;color: #ce5f9c" class="iconfont">&#xe6e9;</span>
+                            <span style="font-size:24px;margin-right: 10px;color: #304e9a" class="iconfont">&#xe6e7;</span>
+                        </div>
+                    </div>
+					<iframe src="https://map.baidu.com/@12748538.99,4559724.44,12z" width="50%" height="380px" style="float: right;"></iframe>
+                </div>
+            </div>
+        </div>
+    </template>
+    <script src="vue.js"></script>
+    <script src="vue-router.js"></script>
+   
+    <script src="swiper.min.js"></script>
+
+    <script>
+        Vue.component('no3', {
+            template: '#no3'
+        })
+        Vue.component('chan', {
+            template: '#chan',
+            data() {
+                return {
+                    arr: [{
+                        a: '医疗PPP有望成后起之秀 概念股早盘...',
+                        b: '当今最领先的响应式自助建站平台，我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网...'
+                    }, {
+                        a: '国产高端医疗设备凭高性价比应对"...',
+                        b: '当今最领先的响应式自助建站平台，我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网...'
+                    }, {
+                        a: '医疗器械国产化命脉：“供应商”转...',
+                        b: '当今最领先的响应式自助建站平台，我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网...'
+                    }],
+                    type: 0
+                }
+            },
+            methods: {
+                over() {
+
+                    console.log(this.$refs.div)
+                }
+            }
+        })
+        Vue.component('product', {
+            template: '#product',
+            data() {
+                return {
+                    arr: [{
+                        a: 'https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTcvMDYvMDdiNzYwNTRjMjQwOWZmN2YwM2MxZTFlMjlmOTk4YTYtMjMweDIzMC5wbmc_p_p100_p_3D.png',
+                        b: 'THE PROJECT',
+                        c: 'NAME 01'
+                    }, {
+                        a: 'https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTcvMDYvOTAxNzllOTM4ZmFhMTgzZjhiMDFjODgwZjAzNzk3NjctMjMweDIzMC5wbmc_p_p100_p_3D.png',
+                        b: 'THE PROJECT',
+                        c: 'NAME 02'
+                    }, {
+                        a: 'https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTcvMDYvM2JlMmUyNDFkNTM4NjBmZmRkNzMzNjNiOWJiMjdjNTMtMjMweDIzMC5wbmc_p_p100_p_3D.png',
+                        b: 'THE PROJECT',
+                        c: 'NAME 03'
+                    }, {
+                        a: 'https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTcvMDcvZjZmODI0YzZlNGJlZWQ1ZDI0ZmRlZGRlZDBkZmY2ZDktMjMweDIzMC5wbmc_p_p100_p_3D.png',
+                        b: 'THE PROJECT',
+                        c: 'NAME 04'
+                    }]
+                }
+            }
+        })
+        var routes = [
+            {
+                path: '/',
+                component: { template: '#no1' }
+            },
+            {
+                path: '/no2',
+                component: { template: '#no2' },
+                children: [
+                    {
+                        path: '/',
+                        component: {
+                            template: `<div style="clear: both;padding-left: 113px;">
+                    <div style="float: left;background-color: #e9e9e9;margin:10px;">
+                        <ul style="min-height: 60px;;">
+                            <li style="width:240px;margin-bottom:30px;padding-bottom:30px;float: left;">
+                                <div style="background-color: #e9e9e9">
+                                    <div
+                                        style="overflow:hidden;display:block;width:100%;text-align:center;padding-bottom:10px;">
+                                        <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDkvODliOWE1ZWI3YjZhYjZkNWZjZjFiNjEyNDAyOWFhMWYtMjEweDIxMC5qcGc_p_p100_p_3D.jpg"
+                                            alt="">
+                                    </div>
+                                    <div
+                                        style="padding-top:25px;padding-bottom:3px;font-weight:normal;color:#333333;line-height:13px;vertical-align:middle;text-align: center;width: 100%">
+                                        <a href="#"
+                                            style="color:#333333;font-size:14px;font-family:微软雅黑;line-height: 20px;">仪器设备Um350c</a>
+                                    </div>
+                                    <div style="text-align:center;color:#999999;font-size:12px;font-family:微软雅黑;">
+                                        <p>编辑设备副标题</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="float: left;background-color: #e9e9e9;margin:10px;">
+                        <ul style="min-height:60px;">
+                            <li style="width:240px;margin-bottom:30px;padding-bottom:30px;float: left;">
+                                <div style="background-color: #e9e9e9">
+                                    <div
+                                        style="overflow:hidden;display:block;width:100%;text-align:center;padding-bottom:10px;">
+                                        <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDkvOTQ3M2MwZWI4ODE4ZmYzM2Y5OGFmYWY1ODg2N2I4ZjgtMjEweDIxMC5qcGc_p_p100_p_3D.jpg"
+                                            alt="">
+                                    </div>
+                                    <div
+                                        style="padding-top:25px;padding-bottom:3px;font-weight:normal;color:#333333;line-height:13px;vertical-align:middle;text-align: center;width: 100%">
+                                        <a href="#"
+                                            style="color:#333333;font-size:14px;font-family:微软雅黑;line-height: 20px;">仪器设备Um390i</a>
+                                    </div>
+                                    <div style="text-align:center;color:#999999;font-size:12px;font-family:微软雅黑;">
+                                        <p>编辑设备副标题</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="float: left;background-color: #e9e9e9;margin:10px;">
+                        <ul style="min-height:60px;">
+                            <li style="width:240px;margin-bottom:30px;padding-bottom:30px;float: left;">
+                                <div style="background-color: #e9e9e9">
+                                    <div
+                                        style="overflow:hidden;display:block;width:100%;text-align:center;padding-bottom:10px;">
+                                        <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDkvY2Y4YzM5NDJmMjU5YThmYmMzMDA3OWNiMTQ2NjE2MWYtMjEweDIxMC5qcGc_p_p100_p_3D.jpg"
+                                            alt="">
+                                    </div>
+                                    <div
+                                        style="padding-top:25px;padding-bottom:3px;font-weight:normal;color:#333333;line-height:13px;vertical-align:middle;text-align: center;width: 100%">
+                                        <a href="#"
+                                            style="color:#333333;font-size:14px;font-family:微软雅黑;line-height: 20px;">仪器设备Um250c</a>
+                                    </div>
+                                    <div style="text-align:center;color:#999999;font-size:12px;font-family:微软雅黑;">
+                                        <p>编辑设备副标题</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="float: left;background-color: #e9e9e9;margin:10px;">
+                        <ul style="min-height:60px;">
+                            <li style="width:240px;margin-bottom:30px;padding-bottom:30px;float: left;">
+                                <div style="background-color: #e9e9e9">
+                                    <div
+                                        style="overflow:hidden;display:block;width:100%;text-align:center;padding-bottom:10px;">
+                                        <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDkvMDE1MmFkNTI5MjBkOWM3YTY4NmM5MjZjOTNhZTczMmMtMjEweDIxMC5qcGc_p_p100_p_3D.jpg"
+                                            alt="">
+                                    </div>
+                                    <div
+                                        style="padding-top:25px;padding-bottom:3px;font-weight:normal;color:#333333;line-height:13px;vertical-align:middle;text-align: center;width: 100%">
+                                        <a href="#"
+                                            style="color:#333333;font-size:14px;font-family:微软雅黑;line-height: 20px;">仪器设备Um330</a>
+                                    </div>
+                                    <div style="text-align:center;color:#999999;font-size:12px;font-family:微软雅黑;">
+                                        <p>编辑设备副标题</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="float: left;background-color: #e9e9e9;margin:10px;">
+                        <ul style="min-height:60px;">
+                            <li style="width:240px;margin-bottom:30px;padding-bottom:30px;float: left;">
+                                <div style="background-color: #e9e9e9">
+                                    <div
+                                        style="overflow:hidden;display:block;width:100%;text-align:center;padding-bottom:10px;">
+                                        <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDkvOTVlZjIxODM2NWUyOGJiODdhNjkwNWE3NDI4N2IxNWQtMjEweDIxMC5qcGc_p_p100_p_3D.jpg"
+                                            alt="">
+                                    </div>
+                                    <div
+                                        style="padding-top:25px;padding-bottom:3px;font-weight:normal;color:#333333;line-height:13px;vertical-align:middle;text-align: center;width: 100%">
+                                        <a href="#"
+                                            style="color:#333333;font-size:14px;font-family:微软雅黑;line-height: 20px;">仪器设备Qm325</a>
+                                    </div>
+                                    <div style="text-align:center;color:#999999;font-size:12px;font-family:微软雅黑;">
+                                        <p>编辑设备副标题</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="float: left;background-color: #e9e9e9;margin:10px;">
+                        <ul style="min-height:60px;">
+                            <li style="width:240px;margin-bottom:30px;padding-bottom:30px;float: left;">
+                                <div style="background-color: #e9e9e9">
+                                    <div
+                                        style="overflow:hidden;display:block;width:100%;text-align:center;padding-bottom:10px;">
+                                        <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDkvMjZmZDhlZTY1YmM4YTcwZWZkNGNhOWI3OWFmMDg1NWYtMjEweDIxMC5qcGc_p_p100_p_3D.jpg"
+                                            alt="">
+                                    </div>
+                                    <div
+                                        style="padding-top:25px;padding-bottom:3px;font-weight:normal;color:#333333;line-height:13px;vertical-align:middle;text-align: center;width: 100%">
+                                        <a href="#"
+                                            style="color:#333333;font-size:14px;font-family:微软雅黑;line-height: 20px;">仪器设备Um310c</a>
+                                    </div>
+                                    <div style="text-align:center;color:#999999;font-size:12px;font-family:微软雅黑;">
+                                        <p>编辑设备副标题</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="float: left;background-color: #e9e9e9;margin:10px;">
+                        <ul style="min-height:60px;">
+                            <li style="width:240px;margin-bottom:30px;padding-bottom:30px;float: left;">
+                                <div style="background-color: #e9e9e9">
+                                    <div
+                                        style="overflow:hidden;display:block;width:100%;text-align:center;padding-bottom:10px;">
+                                        <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTcvMDYvN2Q4YTg0M2ZjODJjNDE3ODdkNTUxNTI1MGZjOWJjZDQtMjEweDIxMC5qcGc_p_p100_p_3D.jpg"
+                                            alt="">
+                                    </div>
+                                    <div
+                                        style="padding-top:25px;padding-bottom:3px;font-weight:normal;color:#333333;line-height:13px;vertical-align:middle;text-align: center;width: 100%">
+                                        <a href="#"
+                                            style="color:#333333;font-size:14px;font-family:微软雅黑;line-height: 20px;">仪器设备Um215</a>
+                                    </div>
+                                    <div style="text-align:center;color:#999999;font-size:12px;font-family:微软雅黑;">
+                                        <p>编辑设备副标题</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="float: left;background-color: #e9e9e9;margin:10px;">
+                        <ul style="min-height:60px;">
+                            <li style="width:240px;margin-bottom:30px;padding-bottom:30px;float: left;">
+                                <div style="background-color: #e9e9e9">
+                                    <div
+                                        style="overflow:hidden;display:block;width:100%;text-align:center;padding-bottom:10px;">
+                                        <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTcvMDYvMWM4ODFjMGI3Y2JlMzcwZDUwZjNlOGIzN2U1NzE5ODYtMjEweDIxMC5qcGc_p_p100_p_3D.jpg"
+                                            alt="">
+                                    </div>
+                                    <div
+                                        style="padding-top:25px;padding-bottom:3px;font-weight:normal;color:#333333;line-height:13px;vertical-align:middle;text-align: center;width: 100%">
+                                        <a href="#"
+                                            style="color:#333333;font-size:14px;font-family:微软雅黑;line-height: 20px;">仪器设备Um309</a>
+                                    </div>
+                                    <div style="text-align:center;color:#999999;font-size:12px;font-family:微软雅黑;">
+                                        <p>编辑设备副标题</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>`
+                        }
+                    },
+                    {
+                        path: 'shebeifenlei1',
+                        component: {
+                            template: `<div style="clear: both;padding-left: 113px;">
+                    <div style="float: left;background-color: #e9e9e9;margin:10px;">
+                        <ul style="min-height: 60px;;">
+                            <li style="width:240px;margin-bottom:30px;padding-bottom:30px;float: left;">
+                                <div style="background-color: #e9e9e9">
+                                    <div
+                                        style="overflow:hidden;display:block;width:100%;text-align:center;padding-bottom:10px;">
+                                        <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDkvODliOWE1ZWI3YjZhYjZkNWZjZjFiNjEyNDAyOWFhMWYtMjEweDIxMC5qcGc_p_p100_p_3D.jpg"
+                                            alt="">
+                                    </div>
+                                    <div
+                                        style="padding-top:25px;padding-bottom:3px;font-weight:normal;color:#333333;line-height:13px;vertical-align:middle;text-align: center;width: 100%">
+                                        <a href="#"
+                                            style="color:#333333;font-size:14px;font-family:微软雅黑;line-height: 20px;">仪器设备Um350c</a>
+                                    </div>
+                                    <div style="text-align:center;color:#999999;font-size:12px;font-family:微软雅黑;">
+                                        <p>编辑设备副标题</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>                    
+                    <div style="float: left;background-color: #e9e9e9;margin:10px;">
+                        <ul style="min-height:60px;">
+                            <li style="width:240px;margin-bottom:30px;padding-bottom:30px;float: left;">
+                                <div style="background-color: #e9e9e9">
+                                    <div
+                                        style="overflow:hidden;display:block;width:100%;text-align:center;padding-bottom:10px;">
+                                        <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDkvMDE1MmFkNTI5MjBkOWM3YTY4NmM5MjZjOTNhZTczMmMtMjEweDIxMC5qcGc_p_p100_p_3D.jpg"
+                                            alt="">
+                                    </div>
+                                    <div
+                                        style="padding-top:25px;padding-bottom:3px;font-weight:normal;color:#333333;line-height:13px;vertical-align:middle;text-align: center;width: 100%">
+                                        <a href="#"
+                                            style="color:#333333;font-size:14px;font-family:微软雅黑;line-height: 20px;">仪器设备Um330</a>
+                                    </div>
+                                    <div style="text-align:center;color:#999999;font-size:12px;font-family:微软雅黑;">
+                                        <p>编辑设备副标题</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>                                
+                    <div style="float: left;background-color: #e9e9e9;margin:10px;">
+                        <ul style="min-height:60px;">
+                            <li style="width:240px;margin-bottom:30px;padding-bottom:30px;float: left;">
+                                <div style="background-color: #e9e9e9">
+                                    <div
+                                        style="overflow:hidden;display:block;width:100%;text-align:center;padding-bottom:10px;">
+                                        <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTcvMDYvN2Q4YTg0M2ZjODJjNDE3ODdkNTUxNTI1MGZjOWJjZDQtMjEweDIxMC5qcGc_p_p100_p_3D.jpg"
+                                            alt="">
+                                    </div>
+                                    <div
+                                        style="padding-top:25px;padding-bottom:3px;font-weight:normal;color:#333333;line-height:13px;vertical-align:middle;text-align: center;width: 100%">
+                                        <a href="#"
+                                            style="color:#333333;font-size:14px;font-family:微软雅黑;line-height: 20px;">仪器设备Um215</a>
+                                    </div>
+                                    <div style="text-align:center;color:#999999;font-size:12px;font-family:微软雅黑;">
+                                        <p>编辑设备副标题</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>                 
+                </div>`
+                        }
+                    },
+                    {
+                        path: 'shebeifenlei2',
+                        component: {
+                            template: `<div style="clear: both;padding-left: 113px;">
+                                    <div style="float: left;background-color: #e9e9e9;margin:10px;">
+                        <ul style="min-height:60px;">
+                            <li style="width:240px;margin-bottom:30px;padding-bottom:30px;float: left;">
+                                <div style="">
+                                    <div
+                                        style="overflow:hidden;display:block;width:100%;text-align:center;padding-bottom:10px;">
+                                        <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDkvY2Y4YzM5NDJmMjU5YThmYmMzMDA3OWNiMTQ2NjE2MWYtMjEweDIxMC5qcGc_p_p100_p_3D.jpg"
+                                            alt="">
+                                    </div>
+                                    <div
+                                        style="padding-top:25px;padding-bottom:3px;font-weight:normal;color:#333333;line-height:13px;vertical-align:middle;text-align: center;width: 100%">
+                                        <a href="#"
+                                            style="color:#333333;font-size:14px;font-family:微软雅黑;line-height: 20px;">仪器设备Um250c</a>
+                                    </div>
+                                    <div style="text-align:center;color:#999999;font-size:12px;font-family:微软雅黑;">
+                                        <p>编辑设备副标题</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="float: left;background-color: #e9e9e9;margin:10px;">
+                        <ul style="min-height:60px;">
+                            <li style="width:240px;margin-bottom:30px;padding-bottom:30px;float: left;">
+                                <div style="background-color: #e9e9e9">
+                                    <div
+                                        style="overflow:hidden;display:block;width:100%;text-align:center;padding-bottom:10px;">
+                                        <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDkvMjZmZDhlZTY1YmM4YTcwZWZkNGNhOWI3OWFmMDg1NWYtMjEweDIxMC5qcGc_p_p100_p_3D.jpg"
+                                            alt="">
+                                    </div>
+                                    <div
+                                        style="padding-top:25px;padding-bottom:3px;font-weight:normal;color:#333333;line-height:13px;vertical-align:middle;text-align: center;width: 100%">
+                                        <a href="#"
+                                            style="color:#333333;font-size:14px;font-family:微软雅黑;line-height: 20px;">仪器设备Um310c</a>
+                                    </div>
+                                    <div style="text-align:center;color:#999999;font-size:12px;font-family:微软雅黑;">
+                                        <p>编辑设备副标题</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                                
+                                
+                                </div>`
+                        }
+                    },
+                    {
+                        path: 'shebeifenlei3',
+                        component: {
+                            template: `<div style="clear: both;padding-left: 113px;">
+                                    <div style="float: left;">
+                        <ul style="min-height:60px;">
+                            <li style="width:240px;margin-bottom:30px;padding-bottom:30px;padding:10px;float: left;">
+                                <div style="background-color: #e9e9e9">
+                                    <div
+                                        style="overflow:hidden;display:block;width:100%;text-align:center;padding-bottom:10px;">
+                                        <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDkvOTQ3M2MwZWI4ODE4ZmYzM2Y5OGFmYWY1ODg2N2I4ZjgtMjEweDIxMC5qcGc_p_p100_p_3D.jpg"
+                                            alt="">
+                                    </div>
+                                    <div
+                                        style="padding-top:25px;padding-bottom:3px;font-weight:normal;color:#333333;line-height:13px;vertical-align:middle;text-align: center;width: 100%">
+                                        <a href="#"
+                                            style="color:#333333;font-size:14px;font-family:微软雅黑;line-height: 20px;">仪器设备Um390i</a>
+                                    </div>
+                                    <div style="text-align:center;color:#999999;font-size:12px;font-family:微软雅黑;">
+                                        <p>编辑设备副标题</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="float: left;">
+                        <ul style="min-height:60px;">
+                            <li style="width:240px;margin-bottom:30px;padding-bottom:30px;padding:10px;float: left;">
+                                <div style="background-color: #e9e9e9">
+                                    <div
+                                        style="overflow:hidden;display:block;width:100%;text-align:center;padding-bottom:10px;">
+                                        <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMDkvOTVlZjIxODM2NWUyOGJiODdhNjkwNWE3NDI4N2IxNWQtMjEweDIxMC5qcGc_p_p100_p_3D.jpg"
+                                            alt="">
+                                    </div>
+                                    <div
+                                        style="padding-top:25px;padding-bottom:3px;font-weight:normal;color:#333333;line-height:13px;vertical-align:middle;text-align: center;width: 100%">
+                                        <a href="#"
+                                            style="color:#333333;font-size:14px;font-family:微软雅黑;line-height: 20px;">仪器设备Qm325</a>
+                                    </div>
+                                    <div style="text-align:center;color:#999999;font-size:12px;font-family:微软雅黑;">
+                                        <p>编辑设备副标题</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>            
+                    <div style="float: left;">
+                        <ul style="min-height:60px;">
+                            <li style="width:240px;margin-bottom:30px;padding-bottom:30px;padding:10px;float: left;">
+                                <div style="background-color: #e9e9e9">
+                                    <div
+                                        style="overflow:hidden;display:block;width:100%;text-align:center;padding-bottom:10px;">
+                                        <img src="https://ccdn.goodq.top/caches/40c05a76d970c388d38b924930a6f580/aHR0cHM6Ly81N2E3ZTZhYWYyZjc4LnQ3My5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTcvMDYvMWM4ODFjMGI3Y2JlMzcwZDUwZjNlOGIzN2U1NzE5ODYtMjEweDIxMC5qcGc_p_p100_p_3D.jpg"
+                                            alt="">
+                                    </div>
+                                    <div
+                                        style="padding-top:25px;padding-bottom:3px;font-weight:normal;color:#333333;line-height:13px;vertical-align:middle;text-align: center;width: 100%">
+                                        <a href="#"
+                                            style="color:#333333;font-size:14px;font-family:微软雅黑;line-height: 20px;">仪器设备Um309</a>
+                                    </div>
+                                    <div style="text-align:center;color:#999999;font-size:12px;font-family:微软雅黑;">
+                                        <p>编辑设备副标题</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>           
+                                </div>`
+                        }
+                    },
+                ]
+            },
+            // {
+            //     path: '/no3',
+            //     component: {
+            //         template: '#no3'
+            //     }
+            // },
+            {
+                path: '/no3',
+                component: {
+                    template: '#no3'
+                },
+                children: [{
+                    path: '/quanbu',
+                    component: {
+                        template: "#quanbu"
+                    }
+                }, {
+                    path: '/qiye',
+                    component: {
+                        template: "#qiye"
+                    }
+                }, {
+                    path: '/hangye',
+                    component: {
+                        template: '#hangye'
+                    }
+                }]
+            },
+            {
+                path: '/no4',
+                component: {
+                    template: '#no4'
+                }
+            },
+            {
+                path: '/no5',
+                component: {
+                    template: '#no5'
+                }
+            },
+        ]
+        var router = new VueRouter({
+            routes
+        })
+        new Vue({
+            el: "#box",
+            router,
+            mounted() {
+
+            },
+            watch: {
+                '$route.path'(a, b) {
+                    console.log(a, b);
+
+                }
+            }
+        })
+    </script>
+    <!-- <script>
+        var mySwiper = new Swiper('#swiper-container1', {
+            //   direction: 'vertical', // 垂直切换选项
+            loop: true, // 循环模式选项
+
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        })      
+    </script> -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    });
+    var swiper = new Swiper('.swiper-containerone', {
+        loop: true,
+        spaceBetween: 30,
+        autoplay: true,
+        dynamicBullets: true,
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    });
+    var swiper = new Swiper('.swiper-containertwo', {
+        spaceBetween: 30,
+        effect: 'fade',
+        loop: true,
+        autoplay: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+
+        },
+    });
+    </script>
+</body>
+
+</html>
